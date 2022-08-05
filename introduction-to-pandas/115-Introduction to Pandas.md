@@ -1,5 +1,3 @@
-# Introduction to Pandas
-
 ## Learning Objectives
 
 * What is Pandas?
@@ -36,6 +34,7 @@ You can import/load Pandas in your notebook or any other Python IDE in two diffe
 
 * **`import pandas`**
 * **`import pandas as pd`**
+* `import pandas`
 
 Just as we use the `np` shorthand for NumPy, we will be using `pd` shorthand for Pandas. It simply serves as an alias and it is easier to use `pd `instead of writing the full form ‘pandas’ while coding.
 
