@@ -31,7 +31,7 @@
 Anytime you want to use a library in Python, your first priority should be to make it accessible.
 
 You can import/load Pandas in your notebook or any other Python IDE in two different ways:
-
+`import pandas as pd`
 * **`import pandas`**
 * **`import pandas as pd`**
 
