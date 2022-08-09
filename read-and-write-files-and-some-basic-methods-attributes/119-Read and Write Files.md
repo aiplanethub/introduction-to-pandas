@@ -1,5 +1,3 @@
-# Reading & Writing Files
-
 ## Learning Objectives
 
 * Reading a data file
@@ -11,7 +9,7 @@
 * Data exists in a number of formats. The most basic of these is the CSV file. **CSV stands for comma-separated-values**.
 
 
-## **What is a CSV file?**
+## What is a CSV file?
 
 
 
@@ -30,7 +28,7 @@
 
 
 
-* CSV files are normally created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases, as well as import or use it in other programs.
+* CSV files are normally created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases and import or use it in other programs.
 * CSV is a simple file format used to store tabular data, such as a spreadsheet or database.
 * A CSV file stores tabular data (numbers and text) in plain text.
 * Each line of the file is a data record/row.
@@ -94,8 +92,8 @@
 
 
 
-* There are many other things one can do through this one function itself, to change the returned object completely.
-* For instance, one can read a csv file not only locally, but from a URL through read_csv or one can choose what columns need to be imported so that we don’t have to edit the array later.
+* One can do many other things through this one function itself, to change the returned object completely.
+* For instance, one can read a CSV file not only locally, but from a URL through read_csv, or one can choose what columns need to be imported so that we don’t have to edit the array later.
 * These modifications can be done by the various arguments it takes.
 
 ### Pandas to_csv with example
@@ -116,4 +114,4 @@
 
 * **Example:**
 
-![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_35a79b4cb9284d7bab939c655c8bb735.png)
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c540acd080ce418f9a6d7b98a2aa6f1e.png)
