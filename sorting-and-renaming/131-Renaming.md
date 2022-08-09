@@ -1,5 +1,3 @@
-# Renaming
-
 * Renaming means changing the name.
 
 * Most of the time we get dataset where column names are not satisfactory.
@@ -25,7 +23,7 @@
 
 
 
-* We can get the list of all the columns using the attribute **`columns`**.
+* We can get the list of all the columns using the attribute **columns**.
 
 
 
