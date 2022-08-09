@@ -1,22 +1,19 @@
-# Summary Functions
-
 ## Learned Till Now
 
-So far you have learned reading a data file, some methods to check the overview about data and selecting data from a DataFrame.
+So far, you have learned to read a data file, some methods to check the overview of data, and select data from a DataFrame.
 
-  \
-This information, that we got about the data, is not enough. A data scientist always wants to understand the behavior of data. For numerical columns we may want to know the mean value or median values of the data, the minimum value in the column and the maximum value in the column, etc. For categorical column we are interested to know things like the number of different categories in a column, the count of each category in a column, the maximum occurring category in a column, etc. Here we will look at some of the techniques that will help you know the above information about your data.
+The information that we got about the data is not enough. A data scientist always wants to understand the behavior of data. For numerical columns we may want to know the mean value or median values of the data, the minimum value in the column and the maximum value in the column, etc. For categorical columns, we are interested to know things like the number of different categories in a column, the count of each category in a column, the maximum occurring category in a column, etc. Here we will look at some of the techniques that will help you know the above information about your data.
 
 ## What is Summary?
 
-* Summary is a term used for short version of a longer work.
+* Summary is a term used for the short version of a longer work.
 * Summary is a brief statement of the main points of something.
 * Confusing? Let’s understand through an example.
 
 ## Summary Functions
 
-* Pandas has many simple "summary functions" (well, this is not an official name) that help you to restructure your data in a very useful way and displays the useful information about the data.
-* Do you recall the **info()** method that we had used in the earlier module? This method has given us 6 to 7 main points about the data like number of observations and their range indices, names of columns with their data types and number of non-null entries in the particular column, etc.
+* Pandas has many simple "summary functions" (well, this is not an official name) that help you to restructure your data in a very useful way and displays useful information about the data.
+* Do you recall the **info()** method that we had used in the earlier module? This method has given us 6 to 7 main points about the data like the number of observations and their range indices, names of columns with their data types and number of non-null entries in the particular column, etc.
 * So **info()** is also a summary function/method.
 * Here we will see another summary function - **describe()**.
 * Import Pandas Library and load the dataset ‘exam_scores.csv’:
@@ -30,7 +27,7 @@ This information, that we got about the data, is not enough. A data scientist al
 
 ### describe( )
 
-* describe() method, by default, returns a summary about numerical columns only.
+By default, the describe() method returns a summary of numerical columns only.
 
 
 
@@ -45,7 +42,7 @@ This information, that we got about the data, is not enough. A data scientist al
 
 
 * Don’t worry if you don’t know what the terms in the red box mean. You will know the meaning of these terms in further content.
-* If we want to get a summary about categorical columns separately, then we can use the parameter **'include'**.
+* If we want to get a summary of categorical columns separately, then we can use the parameter **'include'**.
 
 
 
@@ -56,7 +53,7 @@ This information, that we got about the data, is not enough. A data scientist al
 
 
 * The returned summary is all about the categorical columns.
-* Also, we can get a summary about numerical and categorical columns together using the same parameter **'include'**.
+* Also, we can get a summary of numerical and categorical columns together using the same parameter **'include'**.
 
 
 
@@ -69,8 +66,8 @@ This information, that we got about the data, is not enough. A data scientist al
 
 
 
-* We can see the above table includes a summary about both numerical and categorical columns. A categorical column cannot have minimum or maximum values or mean and median. So the entries in these fields for categorical columns is **`NaN`**.
-* We have seen in a previous module that this dataset has 5 categorical variables (gender, race/ethnicity, parental level of education, lunch and test preparation course) and 3 numerical (i.e., integer) columns (math score, reading score and writing score).
+* We can see the above table includes a summary of both numerical and categorical columns. A categorical column cannot have minimum or maximum values or mean and median. So the entries in these fields for categorical columns are **NaN**.
+* We have seen in a previous module that this dataset has 5 categorical variables (gender, race/ethnicity, parental level of education, lunch and test preparation course) and 3 numerical (i.e., integer) columns (math score, reading score, and writing score).
 
 
 
