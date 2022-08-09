@@ -1,13 +1,10 @@
-# Basic Methods & Attributes of DataFrame
-
-
 ## Dataset: Exam Scores
 
 This dataset contains marks secured by different students in an examination and their background information.
 
 The dataset can be found here:
 
-* [https://github.com/dphi-official/Datasets/blob/master/exam_scores.csv](https://github.com/dphi-official/Datasets/blob/master/exam_scores.csv)
+* https://raw.githubusercontent.com/dphi-official/Datasets/master/exam_scores.csv
 
 
 ## Read The dataset
@@ -15,11 +12,14 @@ The dataset can be found here:
 * So far you have learned how to read a csv file using read_csv() function. Let’s see the practical implementation.
 * read_csv() function is of pandas library. So the first task is always to import/load the library we will use.
 
+
+
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_961186b0348e4d039253c2c1d82e96be.png)
 
 * To read a csv file, use read_csv() function of pandas library.
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_fc122795984a40bab02c4807bb7e16ac.png)
+
 * **The csv file ‘exam_scores’ is located in the current working directory.**
 
 ## Methods and Attributes of DataFrame
